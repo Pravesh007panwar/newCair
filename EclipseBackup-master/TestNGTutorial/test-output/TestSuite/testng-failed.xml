@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="3" name="TestGuru99MultipleSession(failed)" parallel="methods">
+    <classes>
+      <class name="myfirstprgram.TestGuru99MultipleSession">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="executSessionThree"/>
+          <include name="executeSessionTwo"/>
+        </methods>
+      </class> <!-- myfirstprgram.TestGuru99MultipleSession -->
+    </classes>
+  </test> <!-- TestGuru99MultipleSession(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

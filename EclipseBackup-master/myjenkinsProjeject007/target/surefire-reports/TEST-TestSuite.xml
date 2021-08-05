@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="631.563" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="D:\selenium\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\eclipse-workspace\myjenkinsProjeject007\target\test-classes;C:\Users\HP\eclipse-workspace\myjenkinsProjeject007\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire18408310808782489189\surefirebooter9942256643238804284.jar C:\Windows\Temp\surefire18408310808782489189 2021-07-19T09-06-08_693-jvmRun1 surefire11977036887720676389tmp surefire_012457848237749188927tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\myjenkinsProjeject007\target\test-classes;C:\Users\HP\eclipse-workspace\myjenkinsProjeject007\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\eclipse-workspace\myjenkinsProjeject007"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire18408310808782489189\surefirebooter9942256643238804284.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="DESKTOP-OEDJJGO$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\myjenkinsProjeject007"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.8.1/bin;C:\Program Files\Java\jdk-16.0.1/bin;C:\Program Files\Java\jdk-16.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HP\Documents\selenium\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\apache-maven-3.3.1\bin;C:\Program Files\apache-maven-3.8.1\bin;%HOME_MAVEN%;C:\Program Files\Java\jdk-16.0.1;C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="beforeTest" classname="Naukri.comUpdate.profileUpdate" time="630.022">
+    <failure message="session not created&#10;from timeout: Timed out receiving message from renderer: 600.000&#10;  (Session info: chrome=91.0.4472.124)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-OEDJJGO&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x007FC013+2474003]&#10;	Ordinal0 [0x007929C1+2042305]&#10;	Ordinal0 [0x006A2F68+1060712]&#10;	Ordinal0 [0x00695652+1005138]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069F164+1044836]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069CDDA+1035738]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069A929+1026345]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x00699DBC+1023420]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0068FA5D+981597]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00693A85+998021]&#10;	Ordinal0 [0x00693829+997417]&#10;	Ordinal0 [0x006A4090+1065104]&#10;	Ordinal0 [0x006EB798+1357720]&#10;	Ordinal0 [0x006E8FAA+1347498]&#10;	Ordinal0 [0x006E66DB+1337051]&#10;	Ordinal0 [0x006C3427+1192999]&#10;	Ordinal0 [0x006C42EE+1196782]&#10;	Ordinal0 [0x006C4279+1196665]&#10;	GetHandleVerifier [0x009896FC+1590332]&#10;	GetHandleVerifier [0x00A38614+2306900]&#10;	GetHandleVerifier [0x00889E93+543699]&#10;	GetHandleVerifier [0x008892CE+540686]&#10;	Ordinal0 [0x007986BA+2066106]&#10;	Ordinal0 [0x0079D1C8+2085320]&#10;	Ordinal0 [0x0079D308+2085640]&#10;	Ordinal0 [0x007A67F3+2123763]&#10;	BaseThreadInitThunk [0x76CCFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77E07A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77E07A4E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OEDJJGO', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007FC013+2474003]
+	Ordinal0 [0x007929C1+2042305]
+	Ordinal0 [0x006A2F68+1060712]
+	Ordinal0 [0x00695652+1005138]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069F164+1044836]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069CDDA+1035738]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069A929+1026345]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x00699DBC+1023420]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0068FA5D+981597]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00693A85+998021]
+	Ordinal0 [0x00693829+997417]
+	Ordinal0 [0x006A4090+1065104]
+	Ordinal0 [0x006EB798+1357720]
+	Ordinal0 [0x006E8FAA+1347498]
+	Ordinal0 [0x006E66DB+1337051]
+	Ordinal0 [0x006C3427+1192999]
+	Ordinal0 [0x006C42EE+1196782]
+	Ordinal0 [0x006C4279+1196665]
+	GetHandleVerifier [0x009896FC+1590332]
+	GetHandleVerifier [0x00A38614+2306900]
+	GetHandleVerifier [0x00889E93+543699]
+	GetHandleVerifier [0x008892CE+540686]
+	Ordinal0 [0x007986BA+2066106]
+	Ordinal0 [0x0079D1C8+2085320]
+	Ordinal0 [0x0079D308+2085640]
+	Ordinal0 [0x007A67F3+2123763]
+	BaseThreadInitThunk [0x76CCFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E07A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E07A4E+238]
+
+	at Naukri.comUpdate.profileUpdate.beforeTest(profileUpdate.java:52)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15458
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626665807.490][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+[1626666409.758][SEVERE]: Timed out receiving message from renderer: 600.000
+]]></system-err>
+  </testcase>
+  <testcase name="NaukriLogin" classname="Naukri.comUpdate.profileUpdate" time="0">
+    <skipped message="session not created&#10;from timeout: Timed out receiving message from renderer: 600.000&#10;  (Session info: chrome=91.0.4472.124)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-OEDJJGO&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x007FC013+2474003]&#10;	Ordinal0 [0x007929C1+2042305]&#10;	Ordinal0 [0x006A2F68+1060712]&#10;	Ordinal0 [0x00695652+1005138]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069F164+1044836]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069CDDA+1035738]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0069A929+1026345]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x00699DBC+1023420]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00694FAF+1003439]&#10;	Ordinal0 [0x00694258+1000024]&#10;	Ordinal0 [0x00693DA5+998821]&#10;	Ordinal0 [0x0068FA5D+981597]&#10;	Ordinal0 [0x00693D31+998705]&#10;	Ordinal0 [0x00693A85+998021]&#10;	Ordinal0 [0x00693829+997417]&#10;	Ordinal0 [0x006A4090+1065104]&#10;	Ordinal0 [0x006EB798+1357720]&#10;	Ordinal0 [0x006E8FAA+1347498]&#10;	Ordinal0 [0x006E66DB+1337051]&#10;	Ordinal0 [0x006C3427+1192999]&#10;	Ordinal0 [0x006C42EE+1196782]&#10;	Ordinal0 [0x006C4279+1196665]&#10;	GetHandleVerifier [0x009896FC+1590332]&#10;	GetHandleVerifier [0x00A38614+2306900]&#10;	GetHandleVerifier [0x00889E93+543699]&#10;	GetHandleVerifier [0x008892CE+540686]&#10;	Ordinal0 [0x007986BA+2066106]&#10;	Ordinal0 [0x0079D1C8+2085320]&#10;	Ordinal0 [0x0079D308+2085640]&#10;	Ordinal0 [0x007A67F3+2123763]&#10;	BaseThreadInitThunk [0x76CCFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77E07A7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77E07A4E+238]&#10;"/>
+  </testcase>
+  <testcase name="afterTest" classname="Naukri.comUpdate.profileUpdate" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

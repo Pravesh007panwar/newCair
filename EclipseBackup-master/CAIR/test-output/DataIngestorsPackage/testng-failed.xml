@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataIngestorsPackage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataINgestor(failed)">
+    <classes>
+      <class name="DataIngestors.test003multipleSocialMediaandWeb">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="supportCrawlingandScraping"/>
+        </methods>
+      </class> <!-- DataIngestors.test003multipleSocialMediaandWeb -->
+      <class name="DataIngestors.test009misspellingstargetsearchterms">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="misspellingstargetsearchterms"/>
+        </methods>
+      </class> <!-- DataIngestors.test009misspellingstargetsearchterms -->
+      <class name="DataIngestors.test010determinesentiments">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="DS"/>
+        </methods>
+      </class> <!-- DataIngestors.test010determinesentiments -->
+      <class name="DataIngestors.test020onlinecontentanonymously">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="onlinecontent"/>
+        </methods>
+      </class> <!-- DataIngestors.test020onlinecontentanonymously -->
+      <class name="DataIngestors.test001supportCrawlingandScraping">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+        </methods>
+      </class> <!-- DataIngestors.test001supportCrawlingandScraping -->
+      <class name="DataIngestors.test005abilityquerydatafromwebsites">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="MultipleSocialMediaHandles"/>
+        </methods>
+      </class> <!-- DataIngestors.test005abilityquerydatafromwebsites -->
+      <class name="DataIngestors.test006cMultipleSocialmediahandles">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="MultipleSocialMediaHandles"/>
+        </methods>
+      </class> <!-- DataIngestors.test006cMultipleSocialmediahandles -->
+      <class name="DataIngestors.test023whatsappgroupsingest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="ingestdatafromwhatsappgroups"/>
+        </methods>
+      </class> <!-- DataIngestors.test023whatsappgroupsingest -->
+      <class name="DataIngestors.test022addproxy">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="Proxymanagementsection"/>
+        </methods>
+      </class> <!-- DataIngestors.test022addproxy -->
+      <class name="DataIngestors.test006aAbilityprovideinputfilters">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="polygon"/>
+        </methods>
+      </class> <!-- DataIngestors.test006aAbilityprovideinputfilters -->
+      <class name="DataIngestors.test011queriedcontentrealtime">
+        <methods>
+          <include name="DS"/>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+        </methods>
+      </class> <!-- DataIngestors.test011queriedcontentrealtime -->
+      <class name="DataIngestors.test025Supportschedulingscraping">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="Addcllection"/>
+        </methods>
+      </class> <!-- DataIngestors.test025Supportschedulingscraping -->
+      <class name="DataIngestors.test007AddAvtar">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="avatarcrawling"/>
+        </methods>
+      </class> <!-- DataIngestors.test007AddAvtar -->
+      <class name="DataIngestors.test013SSLencryptedwebsites">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="SSLencryption"/>
+          <include name="INNSIGHTLogin"/>
+        </methods>
+      </class> <!-- DataIngestors.test013SSLencryptedwebsites -->
+      <class name="DataIngestors.test014nondetectablewebcrawlers">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="nondetectablewebcrawlers"/>
+        </methods>
+      </class> <!-- DataIngestors.test014nondetectablewebcrawlers -->
+      <class name="DataIngestors.test002BrowserBasedinteractivescraping">
+        <methods>
+          <include name="MultipleSocialMediaHandles"/>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+        </methods>
+      </class> <!-- DataIngestors.test002BrowserBasedinteractivescraping -->
+      <class name="DataIngestors.test012abilitytobealerted">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="creatingalert"/>
+        </methods>
+      </class> <!-- DataIngestors.test012abilitytobealerted -->
+      <class name="DataIngestors.test006bMultiplekeywordsbooleanquery">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="Multiplekeywordsbooleanquery"/>
+        </methods>
+      </class> <!-- DataIngestors.test006bMultiplekeywordsbooleanquery -->
+      <class name="DataIngestors.test008contentfromsurfaceweb">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="contentfromsurfaceweb"/>
+        </methods>
+      </class> <!-- DataIngestors.test008contentfromsurfaceweb -->
+      <class name="DataIngestors.test021pausedeleteautocrawls">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="collection"/>
+        </methods>
+      </class> <!-- DataIngestors.test021pausedeleteautocrawls -->
+      <class name="DataIngestors.test004systemshouldsupportTwitterstreamingAPI">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="INNSIGHTLogin"/>
+          <include name="MultipleSocialMediaHandles"/>
+        </methods>
+      </class> <!-- DataIngestors.test004systemshouldsupportTwitterstreamingAPI -->
+    </classes>
+  </test> <!-- DataINgestor(failed) -->
+</suite> <!-- Failed suite [DataIngestorsPackage] -->

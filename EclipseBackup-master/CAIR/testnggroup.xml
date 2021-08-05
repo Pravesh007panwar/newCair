@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CAIR">
+	<listeners>
+        <listener class-name="Repo.listners"/>
+    </listeners>
+	<test name="InnsightLogin">
+		<parameter name="URL" value="http://192.168.2.193:8081/innsight" />
+		<parameter name="username" value="pravesh" />
+		<parameter name="password" value="Pravesh@3210#" />
+		<groups>  
+<run>  
+<include name="Smoke"/>  
+</run>  
+</groups>  
+       <packages>
+		<package name="DataIngestors"></package>
+		</packages>
+		
+	</test>
+</suite> 

@@ -1,0 +1,3 @@
+19:39:42.533 [main] INFO  Utility.WebDriverBase - Welcome To Innsight
+19:39:42.580 [main] INFO  Utility.WebDriverBase - Test Cases Executing
+19:40:06.069 [main] INFO  DataIngestors.InnsightLogin - Login Successfully

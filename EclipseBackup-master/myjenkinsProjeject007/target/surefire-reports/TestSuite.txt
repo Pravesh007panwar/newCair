@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 631.563 s <<< FAILURE! - in TestSuite
+Naukri.comUpdate.profileUpdate.beforeTest  Time elapsed: 630.022 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OEDJJGO', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007FC013+2474003]
+	Ordinal0 [0x007929C1+2042305]
+	Ordinal0 [0x006A2F68+1060712]
+	Ordinal0 [0x00695652+1005138]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069F164+1044836]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069CDDA+1035738]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0069A929+1026345]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x00699DBC+1023420]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00694FAF+1003439]
+	Ordinal0 [0x00694258+1000024]
+	Ordinal0 [0x00693DA5+998821]
+	Ordinal0 [0x0068FA5D+981597]
+	Ordinal0 [0x00693D31+998705]
+	Ordinal0 [0x00693A85+998021]
+	Ordinal0 [0x00693829+997417]
+	Ordinal0 [0x006A4090+1065104]
+	Ordinal0 [0x006EB798+1357720]
+	Ordinal0 [0x006E8FAA+1347498]
+	Ordinal0 [0x006E66DB+1337051]
+	Ordinal0 [0x006C3427+1192999]
+	Ordinal0 [0x006C42EE+1196782]
+	Ordinal0 [0x006C4279+1196665]
+	GetHandleVerifier [0x009896FC+1590332]
+	GetHandleVerifier [0x00A38614+2306900]
+	GetHandleVerifier [0x00889E93+543699]
+	GetHandleVerifier [0x008892CE+540686]
+	Ordinal0 [0x007986BA+2066106]
+	Ordinal0 [0x0079D1C8+2085320]
+	Ordinal0 [0x0079D308+2085640]
+	Ordinal0 [0x007A67F3+2123763]
+	BaseThreadInitThunk [0x76CCFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E07A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E07A4E+238]
+
+	at Naukri.comUpdate.profileUpdate.beforeTest(profileUpdate.java:52)
+
